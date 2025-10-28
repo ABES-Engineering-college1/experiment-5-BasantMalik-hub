@@ -10,66 +10,57 @@
 </head>
 <body>
     <h2 align="center">Student Registration Form</h2>
+    <hr>
 
-    <form method="post" action="submit.html">
+    <form action="./submit.html" target="_blank" name="Studen Registratin Form" method="get"></form>
+    <fieldset>
+        
         <table>
-            <tr>
-                <td>Full Name: </td>
-                <td><input type="text" name="fullname" placeholder="Enter your full name" required></td>
-            </tr>
+             <lable for="name">Full Name: </lable>
+             <input type="text" Name="Name" id="name" placeholder="Enter your full name"><br><br>
 
-            <tr>
-                <td>Email:</td>
-                <td><input type="email" name="email" placeholder="Enter your email" required></td>
-            </tr>
+            <lable for="email">Email: </lable>
+          <input type="email" Name="email" id="email" placeholder="Enter your email address" required><br><br>
 
-             <tr>
-                <td>Password</td>
-                <td><input type="text" name="Password" placeholder="Enter your Password" required></td>
-            </tr>
+           <lable for="password">Password:</lable>
+          <input type="password" Name="password" id="password" placeholder="Enter password" required><br><br>
 
-            <tr>
-                <td>Gender:</td>
-                <td>
-                    <input type="radio" name="gender" value="Male" required> Male
-                    <input type="radio" name="gender" value="Female"> Female
-                    <input type="radio" name="gender" value="Other"> Other
-                </td>
-            </tr>
+           <lable for="Gender">Gender:</lable>
+ <input type="radio" Name="gender" id="male" value="male">
+ <lable for="male">Male:</lable>
+ <input type="radio" Name="Male" id="Female" value="Female">
+ <lable for="Female">Female:</lable>
+ <input type="radio" Name="female" id="Other" value="Other">
+ <lable for="Other">Other</lable><br><br>
 
-            <tr>
-                <td>Contact Number:</td>
-                <td><input type="tel" name="contact" placeholder="Enter your contact number" required></td>
-            </tr>
+  <lable for="course">Course:</lable>
+ <Select Name="Select" id="Select"
+ <option>Select your option </option>
+ <optgroup label="~Select Course~">
+ <option value="B.Tech">B.Tech</option>
+ <option value="M.tech">M.Tech</option>
+ <option value="B.Pharma">B.Pharma</option>
+ <option value="PHD">PHD</option>
+ </optgroup></select><br><br>
 
-            <tr>
-                <td>Course:</td>
-                <td>
-                    <select name="course" required>
-                        <option value="">--Select Course--</option>
-                        <option value="BCA">BCA</option>
-                        <option value="BBA">BBA</option>
-                        <option value="B.Sc">B.Sc</option>
-                        <option value="BA">BA</option>
-                        <option value="B.Tech">B.Tech</option>
-                    </select>
-                </td>
-            </tr>
+  <lable for="number">Contact No.:</lable>
+<input type="numbers" Name="numbers" id="numberss" placeholder="Enter your number" required><br><br>
 
-            
+<lable for="address">Address:</lable><br>
+ <textarea name="add" Name="add" id="add" rows="6" cols="40"></textarea><br><br>
 
-            <tr>
-                <td>Address:</td>
-                <td><textarea name="address" rows="4" cols="30" placeholder="Enter your address" required></textarea></td>
-            </tr>
+  <input type="submit" value="Register">
+ <input type="reset" value="Clear">
 
-            <tr align="center">
-                <td colspan="2">
-                    <input type="submit" value="Register">
-                    <input type="reset" value="Reset">
-                </td>
-            </tr>
-        </table>
-    </form>
+  <hr>
+ <p><center>&copy; 2025 Student Registration Form</center></p>
+ </fieldset>
+ </forms>
+ <hr>
+ <p><b>Experiment 5 by</b></p>
+
+ <dd>Basant Malik</dd> 
+ <dd>ECE 1</dd> 
 </body>
 </html>
+
